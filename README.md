@@ -1,8 +1,7 @@
-# Build a Gradle Project from Python:
+# Build a Gradle Project from Python
 
 ## Repo Details
 
-* `GradleProjFiles` contains a starter gradle project. This can be modified to your needs.
-* `build_gradle.py` will take the files in `GradleProjFiles` and make a new Java project.
-	* Run the following: `python build_gradle.py --d myproj --p /path/to/project/`
-
+- **`GradleProjFiles`**: Contains a starter Gradle project. You can modify these files to suit your needs.
+- **`build_gradle.py`**: Automates the creation of a new Java project using the files in `GradleProjFiles`.
+  - To create a project, run: `python build_gradle.py --d myproj --p /path/to/project/`
